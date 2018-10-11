@@ -24,7 +24,17 @@ At the end, **our goal is to find ways to detect anomalies or unexpected behavio
 
 Some current testing methodologies help to improve quality and most of them are good to create software but are not great for ensuring quality over time.
 One can spend a lot of human-work implementing test cases for all of that, but at what cost? Both creating and running those will impact directly on the time to market.
-Besides, browsers change, device change, servers change… there is just too much that can change, **errors will happen**.
+Besides, browsers change, device change, servers change… there is just too much that can change.
+
+---
+
+@title[errors_happend]
+
+### Embrace the fact that
+
+**errors will happen**.
+
+![shit](https://image.spreadshirtmedia.com/image-server/v1/compositions/111220200/views/1,width=650,height=650,appearanceId=1,version=1524725084/shit-happens-shit-happen-holy-shit-think-shit-the-thinker-shit-toilet-stool-statue-monument-fun-shirt-puke.jpg)
 
 ---
 @title[all_fine_dog]
