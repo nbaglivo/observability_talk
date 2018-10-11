@@ -1,16 +1,8 @@
-@title[control_teory]
-
-### Observability.
-
-In control theory, **observability** is a measure of how well internal states of a system can be inferred from knowledge of its external outputs.
-
----
-
 @title[fool]
 
 ### You fool.
 
-The impact of the assumption that once the code ran, it will work forever is the unawareness of unexpected behaviour.
+Assume that once the code ran, it will work forever is the **unawareness of unexpected behaviour**.
 
 ---
 
@@ -61,11 +53,17 @@ It is an iterative process, involving iterative introspection of the various obs
 
 ---
 
+@title[control_teory]
+
+### Observability.
+
+In control theory, **observability** is a measure of how well internal states of a system can be inferred from knowledge of its external outputs.
+
+---
+
 @title[application]
 
 ### Application
 In practical terms, you don’t need to rely only on tests to define if your code continuously does what it is supposed to do over time.
 
 You can create **checkpoints of success** for your actions and push those to a controller, which is an isolated part of your infrastructure responsible for the collection and reasoning of interaction signals.
-
-Then, you can start reacting to it, creating alarms and triggers for when it stops acting as it was supposed to.
