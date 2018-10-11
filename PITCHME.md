@@ -4,6 +4,9 @@
 
 Assume that once the code ran, it will work forever is the **unawareness of unexpected behaviour**.
 
+---
+@title[fool_img]
+
 ![fool](https://cdn-images-1.medium.com/max/1600/1*V7JW8dew6Mbekr2InDRQtQ.jpeg)
 
 ---
@@ -22,6 +25,10 @@ At the end, **our goal is to find ways to detect anomalies or unexpected behavio
 Some current testing methodologies help to improve quality and most of them are good to create software but are not great for ensuring quality over time.
 One can spend a lot of human-work implementing test cases for all of that, but at what cost? Both creating and running those will impact directly on the time to market.
 Besides, browsers change, device change, servers change… there is just too much that can change, **errors will happen**.
+
+---
+@title[all_fine_dog]
+
 
 ![fool](https://cdn-images-1.medium.com/max/1600/1*nL8P6-ZwmXUDd-hD9f6NoA.png)
 
