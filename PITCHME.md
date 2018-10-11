@@ -1,6 +1,6 @@
 @title[fool]
 
-### You fool.
+### Don't fool yourself.
 
 To assume that once the code ran, it will work forever is the **unawareness of unexpected behaviour**.
 
