@@ -2,7 +2,7 @@
 
 ### You fool.
 
-Assume that once the code ran, it will work forever is the **unawareness of unexpected behaviour**.
+To assume that once the code ran, it will work forever is the **unawareness of unexpected behaviour**.
 
 ---
 @title[fool_img]
