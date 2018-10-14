@@ -43,34 +43,19 @@ Besides, browsers change, device change, servers change… there is just too muc
 ![fool](https://cdn-images-1.medium.com/max/1600/1*nL8P6-ZwmXUDd-hD9f6NoA.png)
 
 ---
-
-@title[Monitoring]
-
-### Monitoring
-
-Monitoring suggests that you first build a system, then **monitor** it for known problems. It tells you about the **known-unknowns** about your system.
-Known-unknowns are (relatively) easy (or at least the paths are well-trodden). Unknown-unknowns are hard.
-
----
-
-@title[Monitoring2]
-
-What happens when users are complaining, but your dashboards are all green? What happens when something new happens and you don’t know where to start looking? In other words, how do you deal with **unknown-unknowns**?
-
----
-
-@title[unknown-unknowns]
-
-You can’t predict what information you’re going to need to know to answer a question you also couldn’t predict. So you should gather absolutely as much context as possible, all the time.
-
-Monitoring tells you whether a system is working, observability lets you ask why it isn't working. An observable system is one you can fully interrogate
-
----
 @title[Debugging]
 
-### Debugging
+### So, you will need to debug
 
-It is an iterative process, involving iterative introspection of the various observations and facts reported by the system, making the right deductions and testing whether the theory holds water. **Evidence cannot be conjured out of thin air nor can it be extrapolated from aggregates, averages, percentiles,** historic patterns or any other forms of data primarily collected for monitoring purposes. **Evidence needs to be reported by the systems in the form of highly precise and contextual facts and observations**, which can later be used while debugging to theorize as to why something might be not working as expected.
+It will involve iterative introspection of the various observations and facts reported by the system, making the right deductions and testing whether the theory holds water.
+
+---
+
+@title[Debugging2]
+
+### And we'll need evidence
+
+Evidence cannot be conjured out of thin air nor can it be extrapolated from aggregates, averages, percentiles. It needs to be reported by the systems in the form of highly precise and contextual facts and observations.
 
 ---
 
@@ -82,9 +67,73 @@ In control theory, **observability** is a measure of how well internal states of
 
 ---
 
+@title[obeservability_for_mortals]
+
+### Wait, what?.
+
+In other words, **observability** is a property of your system, you can have a low degree of observability, some degree or even high degree.
+
+---
+
+@title[Monitoring]
+
+It gives you some degree of observability, but it only allows you to see things that you predicted that could happen.
+
+---
+
+@title[Monitoring2]
+
+### Monitoring
+
+It suggests that you first build a system, then **monitor it for known problems**. It tells you about the **known-unknowns** about your system.
+
+---
+
+@title[Known-unknowns]
+
+### Known-unknowns
+
+Known-unknowns are problems where you know what happened but you aren't sure how it happen. Example: expected errors.
+They are (relatively) easy (or at least the paths are well-trodden). Unknown-unknowns are hard.
+
+---
+
+@title[unknown-unknowns2]
+
+But what happens when users are complaining, but your dashboards are all green?
+What happens when something new happens and you don’t know where to start looking?
+In other words, how do you deal with **unknown-unknowns**?
+
+---
+
+@title[unknown-unknowns]
+
+You can’t predict what information you’re going to need to know to answer a question you also couldn’t predict.
+
+---
+
+@title[unknown-unknowns2]
+
+So you should gather absolutely as much context as possible, all the time.
+
+---
+
+@title[observability-porpuse]
+
+**Observability** allows you to ask why it isn't working.
+An observable system is one you can fully interrogate.
+
+---
+
 @title[application]
 
 ### Application
 In practical terms, you don’t need to rely only on tests to define if your code continuously does what it is supposed to do over time.
 
-You can create **checkpoints of success** for your actions and push those to a controller, which is an isolated part of your infrastructure responsible for the collection and reasoning of interaction signals.
+---
+
+@title[]
+
+### Checkpoints of success
+
+You can create this checkpoints for your actions and push those to a controller, which is an isolated part of your infrastructure responsible for the collection and reasoning of interaction signals.
