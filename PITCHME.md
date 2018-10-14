@@ -41,12 +41,10 @@ Besides, browsers change, device change, servers change… there is just too muc
 
 So, let's assume it... **errors will happen**...
 
-![shit](https://image.spreadshirtmedia.com/image-server/v1/compositions/111220200/views/1,width=650,height=650,appearanceId=1,version=1524725084/shit-happens-shit-happen-holy-shit-think-shit-the-thinker-shit-toilet-stool-statue-monument-fun-shirt-puke.jpg)
-
 ---
 @title[all_fine_dog]
 
-...No matter how well you test your stuff,
+... No matter how well you test your stuff,
 
 ![fool](https://cdn-images-1.medium.com/max/1600/1*nL8P6-ZwmXUDd-hD9f6NoA.png)
 
