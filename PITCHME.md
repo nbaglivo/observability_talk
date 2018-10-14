@@ -14,16 +14,23 @@ To assume that once the code ran, it will work forever is the **unawareness of u
 @title[bug]
 
 A bug is nothing but an unexpected behaviour of one’s code that happened over time under a certain condition or group of conditions.
-At the end, **our goal is to find ways to detect anomalies or unexpected behaviour on our code over time.**
+
+You can predict that a determined bug will happen.
 
 ---
 
-@title[fool]
+@title[testing]
 
-### Testing
+### Sure, we do have testing but...
 
-Some current testing methodologies help to improve quality and most of them are good to create software but are not great for ensuring quality over time.
-One can spend a lot of human-work implementing test cases for all of that, but at what cost? Both creating and running those will impact directly on the time to market.
+One can spend a lot of human-work implementing test cases **trying** to cover all the possible scenarios **that you can think of**.
+
+But at what cost? Both creating and running those will impact directly on the time to market.
+
+---
+
+@title[testing2]
+
 Besides, browsers change, device change, servers change… there is just too much that can change.
 
 ---
@@ -32,13 +39,14 @@ Besides, browsers change, device change, servers change… there is just too muc
 
 ### Embrace the fact that
 
-**errors will happen**.
+So, let's assume it... **errors will happen**...
 
 ![shit](https://image.spreadshirtmedia.com/image-server/v1/compositions/111220200/views/1,width=650,height=650,appearanceId=1,version=1524725084/shit-happens-shit-happen-holy-shit-think-shit-the-thinker-shit-toilet-stool-statue-monument-fun-shirt-puke.jpg)
 
 ---
 @title[all_fine_dog]
 
+...No matter how well you test your stuff,
 
 ![fool](https://cdn-images-1.medium.com/max/1600/1*nL8P6-ZwmXUDd-hD9f6NoA.png)
 
@@ -73,9 +81,13 @@ In control theory, **observability** is a measure of how well internal states of
 
 In other words, **observability** is a property of your system, you can have a low degree of observability, some degree or even high degree.
 
+It allows you to ask why it isn't working. An observable system is one you can fully interrogate.
+
 ---
 
 @title[Monitoring]
+
+### Monitoring.
 
 It gives you some degree of observability, but it only allows you to see things that you predicted that could happen.
 
@@ -83,9 +95,7 @@ It gives you some degree of observability, but it only allows you to see things 
 
 @title[Monitoring2]
 
-### Monitoring
-
-It suggests that you first build a system, then **monitor it for known problems**. It tells you about the **known-unknowns** about your system.
+Monitoring suggests that you first build a system, then **monitor it for known problems**. It tells you about the **known-unknowns** about your system.
 
 ---
 
@@ -118,13 +128,6 @@ So you should gather absolutely as much context as possible, all the time.
 
 ---
 
-@title[observability-porpuse]
-
-**Observability** allows you to ask why it isn't working.
-An observable system is one you can fully interrogate.
-
----
-
 @title[application]
 
 ### Application
@@ -132,7 +135,7 @@ In practical terms, you don’t need to rely only on tests to define if your cod
 
 ---
 
-@title[]
+@title[checkpoints]
 
 ### Checkpoints of success
 
